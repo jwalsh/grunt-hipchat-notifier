@@ -1,16 +1,11 @@
 # Grunt: Hipchat Notifier
 > Send grunt messages to a Hipchat channel
 
-[![readme.io](https://www.filepicker.io/api/file/cELagUuS7qFS59eScMax)](http://grunt-hipchat-notifier.readme.io/)
-
-[![status](https://sourcegraph.com/api/repos/github.com/logankoester/grunt-hipchat-notifier/badges/status.png)](https://sourcegraph.com/github.com/logankoester/grunt-hipchat-notifier)
-[![Dependency Status](https://david-dm.org/logankoester/grunt-hipchat-notifier.png)](https://david-dm.org/logankoester/grunt-hipchat-notifier)
-[![devDependency Status](https://david-dm.org/logankoester/grunt-hipchat-notifier/dev-status.png)](https://david-dm.org/logankoester/grunt-hipchat-notifier#info=devDependencies)
-[![Gittip](http://img.shields.io/gittip/logankoester.png)](https://www.gittip.com/logankoester/)
-
-[![NPM](https://nodei.co/npm/grunt-hipchat-notifier.png?downloads=true)](https://nodei.co/npm/grunt-hipchat-notifier/)
+[![Dependency Status](https://david-dm.org/jwalsh/grunt-hipchat-notifier.png)](https://david-dm.org/jwalsh/grunt-hipchat-notifier)
+[![devDependency Status](https://david-dm.org/jwalsh/grunt-hipchat-notifier/dev-status.png)](https://david-dm.org/jwalsh/grunt-hipchat-notifier#info=devDependencies)
 
 ## Getting Started
+
 This plugin requires Grunt `~1.0.1`
 
 ```shell
@@ -26,6 +21,7 @@ grunt.loadNpmTasks('grunt-hipchat-notifier');
 ## The "hipchat_notifier" task
 
 ### Overview
+
 In your project's Gruntfile, add a section named `hipchat_notifier` to the data object passed into `grunt.initConfig()`.
 
 ```js
