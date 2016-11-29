@@ -1,5 +1,5 @@
 # Grunt: Hipchat Notifier
-> Send grunt messages to a Hipchat channel
+> Send Grunt messages to a HipChat channel
 
 [![Dependency Status](https://david-dm.org/jwalsh/grunt-hipchat-notifier.png)](https://david-dm.org/jwalsh/grunt-hipchat-notifier)
 [![devDependency Status](https://david-dm.org/jwalsh/grunt-hipchat-notifier/dev-status.png)](https://david-dm.org/jwalsh/grunt-hipchat-notifier#info=devDependencies)
@@ -16,6 +16,13 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 
 ```js
 grunt.loadNpmTasks('grunt-hipchat-notifier');
+```
+
+Create an authToken at https://hipchat.com/admin/api and set in your environment: 
+
+```sh 
+export HIPCHAT_KEY=xxxxxxxxxxxxx
+export HIPCHAT_ROOM=1234567
 ```
 
 ## The "hipchat_notifier" task
@@ -100,7 +107,7 @@ grunt.initConfig({
 * 0.3.0 - Updated to use new hipchat-client format (deprecated sendRoomMessage) (thanks [@ksykulev](https://github.com/ksykulev)!)
 * 0.2.2 - Updated hipchat-client, fixes syntax error in example
 * 0.2.1 - Updated hipchat-client - roomId can now be either numeric or room name.
-* 0.2.0 - Added support for Hipchat message_format to allow for emoticons and @mentions
+* 0.2.0 - Added support for HipChat message_format to allow for emoticons and @mentions
 * 0.1.1 - Added support for dynamic messaging
 * 0.1.0 - First release
 
