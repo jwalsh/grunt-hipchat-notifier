@@ -11,12 +11,10 @@
 [![NPM](https://nodei.co/npm/grunt-hipchat-notifier.png?downloads=true)](https://nodei.co/npm/grunt-hipchat-notifier/)
 
 ## Getting Started
-This plugin requires Grunt `~0.4.1`
-
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+This plugin requires Grunt `~1.0.1`
 
 ```shell
-npm install grunt-hipchat-notifier --save-dev
+npm install @jwalsh/grunt-hipchat-notifier --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
@@ -75,6 +73,8 @@ grunt.initConfig({
 ```
 
 ## Release History
+
+* 1.0.1 - Updates for Grunt v1
 * 0.3.0 - Updated to use new hipchat-client format (deprecated sendRoomMessage) (thanks [@ksykulev](https://github.com/ksykulev)!)
 * 0.2.2 - Updated hipchat-client, fixes syntax error in example
 * 0.2.1 - Updated hipchat-client - roomId can now be either numeric or room name.
@@ -82,13 +82,3 @@ grunt.initConfig({
 * 0.1.1 - Added support for dynamic messaging
 * 0.1.0 - First release
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/logankoester/grunt-hipchat-notifier/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-[![xrefs](https://sourcegraph.com/api/repos/github.com/logankoester/grunt-hipchat-notifier/badges/xrefs.png)](https://sourcegraph.com/github.com/logankoester/grunt-hipchat-notifier)
-[![funcs](https://sourcegraph.com/api/repos/github.com/logankoester/grunt-hipchat-notifier/badges/funcs.png)](https://sourcegraph.com/github.com/logankoester/grunt-hipchat-notifier)
-[![top func](https://sourcegraph.com/api/repos/github.com/logankoester/grunt-hipchat-notifier/badges/top-func.png)](https://sourcegraph.com/github.com/logankoester/grunt-hipchat-notifier)
-[![library users](https://sourcegraph.com/api/repos/github.com/logankoester/grunt-hipchat-notifier/badges/library-users.png)](https://sourcegraph.com/github.com/logankoester/grunt-hipchat-notifier)
-[![authors](https://sourcegraph.com/api/repos/github.com/logankoester/grunt-hipchat-notifier/badges/authors.png)](https://sourcegraph.com/github.com/logankoester/grunt-hipchat-notifier)
-[![Total views](https://sourcegraph.com/api/repos/github.com/logankoester/grunt-hipchat-notifier/counters/views.png)](https://sourcegraph.com/github.com/logankoester/grunt-hipchat-notifier)
-[![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/logankoester/grunt-hipchat-notifier/counters/views-24h.png)](https://sourcegraph.com/github.com/logankoester/grunt-hipchat-notifier)
