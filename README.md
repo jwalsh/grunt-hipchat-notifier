@@ -28,6 +28,32 @@ In your project's Gruntfile, add a section named `hipchat_notifier` to the data 
 grunt.initConfig({
   hipchat_notifier: {
 
+    options: {
+      authToken: process.env.HIPCHAT_KEY,
+      roomId: process.env.HIPCHAT_ROOM
+    },
+
+    // Now create as many messages as you like!
+
+    production: {
+      options: {
+        message: "Production", // A message to send
+        from: "Grunt", // Name for the sender
+        color: "green", // Color of the message
+        message_format: "html" // 'text' or 'html' 
+      }
+    }
+
+  },
+})
+```
+
+### Advanced
+
+```js
+grunt.initConfig({
+  hipchat_notifier: {
+
     // You probably want to set your Hipchat options globally...
 
     options: {
